@@ -83,7 +83,7 @@ class FondoPantalla(pygame.sprite.Sprite):
             screen.blit(self.fondo, (self.x_relativa, 0))
         self.x -= 5
         screen.blit(self.letras, (600, 0))
-# image Goku
+# image Nave
 class Nave(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
