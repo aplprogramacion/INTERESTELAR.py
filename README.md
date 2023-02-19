@@ -1,6 +1,6 @@
 # INTERESTELAR.py
 ![This is an image](https://github.com/aplprogramacion/INTERESTELAR.py/blob/master/Captura%20de%20pantalla%20(13).png)
-El archivo Main:
+# El fichero Main:
 Este código es un programa de Pygame. Pygame es un conjunto de módulos de Python diseñados para la programación de videojuegos. El código muestra una pantalla de menú con varios botones y controles de volumen y movimiento.
 
 La sección de código se divide en bloques que realizan diferentes tareas. Aquí hay una descripción de cada bloque:
@@ -23,3 +23,9 @@ Definición de controles de volumen: Se define una función para manejar los con
 
 Bucle principal: Este es el bucle principal del programa que se ejecuta continuamente hasta que se cierra la ventana. Este bucle maneja todos los eventos de Pygame, como presionar teclas o hacer clic en botones, y actualiza y renderiza todos los sprites y objetos de texto en la pantalla.
 
+# El fichero Interestelar:
+El código es un programa de juego hecho con Pygame en el que se definen las constantes del juego como el tamaño de la ventana, FPS, paleta de colores y fuentes. Además, se establecen directorios para almacenar imágenes y sonidos utilizados en el juego y se cargan archivos de sonido en variables con la biblioteca Pygame.
+
+Se define una clase Jugador que hereda de la clase Sprite de Pygame. En la clase Jugador, se definen los atributos de los jugadores como su imagen, posición, velocidad y disparos. También se definen los métodos para actualizar la posición del jugador y disparar.
+
+ El juego consiste en una nave que dispara a los enemigos, evitando meteoritos que caen del cielo. Los meteoritos y los enemigos tienen diferentes niveles de dificultad y el jugador gana puntos al destruir a los enemigos. El código define dos clases, Meteoritos y Explosiones, y también incluye funciones auxiliares para crear barras de HP y mostrar texto en pantalla. El fondo de pantalla, el icono de la ventana y los gráficos de los enemigos y los meteoritos se cargan a través de imágenes en archivos. La ejecución del juego se controla a través de un loop principal que actualiza los sprites y detecta eventos de teclado para controlar la nave del jugador.
