@@ -1,6 +1,6 @@
 # INTERESTELAR.py
 ![This is an image](https://github.com/aplprogramacion/INTERESTELAR.py/blob/master/Captura%20de%20pantalla%20(13).png)
-[![Alt text](https://img.youtube.com/vi/fL6GdtiRC5E&ab_channel=APL/0.jpg)](https://www.youtube.com/watch?v=fL6GdtiRC5E&ab_channel=APL)
+[![Alt text](https://img.youtube.com/vi/fL6GdtiRC5E/0.jpg)](https://www.youtube.com/watch?v=fL6GdtiRC5E)
 # El fichero Main:
 Este código es un programa de Pygame. Pygame es un conjunto de módulos de Python diseñados para la programación de videojuegos. El código muestra una pantalla de menú con varios botones y controles de volumen y movimiento.
 
